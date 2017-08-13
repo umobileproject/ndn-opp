@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             style="@style/match"
+             tools:context="pt.ulusofona.copelabs.ndn.android.ui.fragment.OpportunisticPeerTracking">
+
+    <LinearLayout
+        style="@style/fill"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_group_formation"
+            style="@style/piece"
+            android:text="@string/groupFormation"/>
+
+        <Button
+            android:id="@+id/button_group_leave"
+            style="@style/piece"
+            android:text="@string/groupLeave"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/title"
+                android:text="@string/wifiP2pPeers"/>
+
+            <ProgressBar
+                android:id="@+id/discoveryInProgress"
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list_wifiP2pPeers"
+            style="@style/piece"/>
+
+        <TextView
+            style="@style/title"
+            android:text="@string/nsdServices"/>
+
+        <ListView
+            android:id="@+id/list_nsd_services"
+            style="@style/piece"/>
+
+    </LinearLayout>
+</FrameLayout>

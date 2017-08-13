@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pt.ulusofona.copelabs.siti.nfd.ui.MainActivity" >
+
+	<item
+		android:id="@+id/connectNdn"
+		android:orderInCategory="0"
+		android:title="@string/connectNdn"/>
+
+	<item
+        android:id="@+id/createFace"
+        android:orderInCategory="1"
+        android:title="@string/createFace"/>
+
+	<item
+		android:id="@+id/addRoute"
+		android:orderInCategory="2"
+		android:title="@string/addRoute"/>
+
+</menu>

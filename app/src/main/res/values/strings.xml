@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">NDN-Opp</string>
+    <string name="label">NDN Opportunistic</string>
+    <string name="description">Porting of the NDN Forwarding Daemon to the Android platform with Opportunistic Networking considerations.</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+	<string name="notAvailable">n/a</string>
+    
+    <string name="status">Status</string>
+    <string name="version">Version</string>
+    <string name="uptime">Uptime</string>
+
+    <string name="nametree">Name Tree</string>
+    <string name="facetable">Face Table</string>
+    <string name="fib">Forwarding Information Base</string>
+    <string name="pit">Pending Interest Table</string>
+    <string name="contentstore">Content Store</string>
+    <string name="sct">Strategy Choice Table</string>
+
+    <string name="peers">UMOBILE Peers</string>
+    <string name="name">Name</string>
+    <string name="prefix">Prefix</string>
+    <string name="nexthops">Next hops</string>
+    <string name="inFaces">In Faces</string>
+    <string name="outFaces">Out Faces</string>
+    <string name="nfdSwitch">Opportunistic NDN Daemon</string>
+    <string name="ipAddress">IP Address</string>
+
+    <string name="create">Create</string>
+    <string name="cancel">Cancel</string>
+    <string name="group">Wifi P2P Group</string>
+    <string name="opp">opp</string>
+    <string name="defaultPrefix">/ndn</string>
+    <string name="addRoute">Add Route</string>
+    <string name="macAddress">MAC Address</string>
+    <string name="umobile">UMobile Peers</string>
+    <string name="servicePeers">Service Peers</string>
+    <string name="serviceTracker">Service Tracker</string>
+    <string name="overview">Overview</string>
+    <string name="forwarderConfiguration">Forwarder Configuration</string>
+    <string name="authorName">Seweryn Dynerowicz</string>
+    <string name="authorEmail">seweryn.dynerowicz@ulusofona.pt</string>
+    <string name="umobileUuid">UUID</string>
+
+    <string name="nsdServices">NSD Services</string>
+    <string name="nsdServiceDiscovery">NSD Service Discovery</string>
+    <string name="nsdServiceRegistration">NSD Service Registration</string>
+
+    <string name="groupOwner">GO</string>
+    <string name="groupClient">Cl</string>
+    <string name="missingGroup">--</string>
+    <string name="groupFormation">Join/Form Group</string>
+    <string name="wifiP2pPeers">WiFi P2P Peers</string>
+    <string name="missingUuid">------------</string>
+    <string name="missingStatus">--</string>
+    <string name="missingMac">--:--:--:--:--:--</string>
+    <string name="peerTracking">UMobile Peer Tracking</string>
+    <string name="uuid">UUID</string>
+    <string name="wfdSwitch">Wi-Fi Direct</string>
+    <string name="connectNdn">Connect to NDN Testbed</string>
+    <string name="ndn_node">NDN Node</string>
+    <string name="connect">Connect</string>
+    <string name="groupLeave">Leave Group</string>
+    <string name="in">IN</string>
+    <string name="out">OUT</string>
+</resources>
